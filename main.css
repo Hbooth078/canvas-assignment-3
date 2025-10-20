@@ -1,0 +1,32 @@
+<head>
+ <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        /* Use the Inter font family */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* A subtle gradient for the background */
+        .gradient-bg {
+            background-color: #111827;
+            background-image: radial-gradient(at 47% 33%, hsl(151, 58%, 84%) 0, transparent 59%), radial-gradient(at 82% 65%, hsl(218.00, 39%, 11%) 0, transparent 55%);
+        }
+    </style>
+</head>
+
+
+
+
+<div class="flex items-center bg-gray-800 p-4 rounded-lg transition-all duration-300 hover:bg-indigo-500/20 hover:scale-105">
+                            <div class="flex-shrink-0 bg-indigo-500 text-white rounded-md h-12 w-12 flex flex-col items-center justify-center mr-4">
+                                <span class="text-xs font-semibold">NO</span>
+                                <span class="text-xl font-bold">Link</span>
+                            </div>
+                            <div class="flex-grow">
+                                <p class="text-lg font-medium text-gray-100">W3Schools</p>
+                                <p class="text-sm text-gray-400">Visit W3Schools!</p>
+                            </div>
